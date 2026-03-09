@@ -1,4 +1,9 @@
 a=10
 b=20
-c=a+b
-print(c)
+c=30
+print("before swapping a=",a,"b=",b, "c=",c)
+temp=c
+c=b
+b=c
+a=temp 
+print("after swapping a=",a,"b=",b,"c=",c)
