@@ -1,0 +1,8 @@
+print ("enter three number")
+a=int(input())
+b=int(input())
+c=int(input())
+print("first no :",a)
+print("second no :",b)
+print("third no :",c)
+print("addition of a b c :",a+b+c)
