@@ -1,0 +1,5 @@
+f=open("khushi.txt","w+")
+f.write("defg")
+f.seek(0)
+print(f.read())
+f.close()

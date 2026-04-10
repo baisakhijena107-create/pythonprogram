@@ -1,0 +1,6 @@
+f=open("khushi.txt","r")
+print(f.read())
+f.close()
+f=open("khushi.txt","a")
+f.write("bye")
+f.close()

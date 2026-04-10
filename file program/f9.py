@@ -1,0 +1,5 @@
+f=open("khushi.txt","r")
+f1=open("abhishek.txt","w")
+f1.write(f.read())
+f.close()
+f1.close()
