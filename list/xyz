@@ -1,0 +1,2 @@
+s="welcome"
+for a in range (0,len(s))
